@@ -4,9 +4,9 @@ import { useState } from 'react'
 
 import Link from 'next/link'
 import useSWR from 'swr'
-import CartSlider from './components/cart-slider'
+import CartSlider from '../cart-slider'
 
-import { getCart } from './lib/swell/cart'
+import { getCart } from '@/lib/swell/cart'
 import { ShoppingCartIcon } from '@heroicons/react/24/outline'
 
 import { SignInButton, UserButton } from '@clerk/nextjs'
