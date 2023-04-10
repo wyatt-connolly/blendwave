@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { Blinker } from '@/components/ui/loading'
+import { Blinker } from './ui/loading'
 import { formatCurrency } from '@/lib/utils'
 
 import { Dialog, Transition } from '@headlessui/react'

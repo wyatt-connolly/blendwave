@@ -12,7 +12,7 @@ import { StarIcon } from '@heroicons/react/20/solid'
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
 import { formatCurrency } from '@/lib/utils'
 import { addToCart } from '@/lib/swell/cart'
-import { Blinker } from '@/components/ui/loading'
+import { Blinker } from './ui/loading'
 
 const details = [
   {
