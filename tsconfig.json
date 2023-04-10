@@ -1,29 +1,28 @@
 {
   "compilerOptions": {
+    "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
-    "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"],
-      "@/components/*": ["./app/components/*"]
-    },
+    "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/index.js", "lib/swell/products.js", "lib/swell/client.js", "lib/swell/cart.js", "app/page.jsx", "app/layout.jsx", "app/products/page.jsx", "app/products/[slug]/page.jsx", "app/components/layout/header.jsx", "app/components/layout/footer.jsx", "app/components/ui/loading.jsx", "app/components/cart-slider.jsx", "app/components/product.jsx", "app/components/products.jsx"],
   "exclude": ["node_modules"]
 }

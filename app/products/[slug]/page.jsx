@@ -1,5 +1,5 @@
 import { getProductBySlugOrId } from '@/lib/swell/products'
-import Product from '@/components/product'
+import Product from '@/app/components/product'
 
 const Page = async ({ params }) => {
   const product = await getProductBySlugOrId(params.slug)
