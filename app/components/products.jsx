@@ -8,14 +8,14 @@ const Products = ({ products }) => {
       <div className='container'>
         <h1 className='text-2xl font-semibold'>Products</h1>
 
-        <div className='mt-20 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8'>
+        <div className='mt-20 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8'>
           {products.map(product => (
             <Link
               key={product.id}
               href={`/products/${product.slug}`}
               className='group'
             >
-              <div className='aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-stone-200 xl:aspect-w-7 xl:aspect-h-8'>
+              <div className='aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-stone-200 xl:aspect-h-8 xl:aspect-w-7'>
                 <Image
                   src={product.images[0].file.url}
                   alt={product.description}
