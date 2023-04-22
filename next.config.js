@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true
   },
   images: {
-    domains: ['cdn.schema.io']
+    domains: ['cdn.schema.io', 'images.unsplash.com', 'www.freepnglogos.com']
   }
 }
 

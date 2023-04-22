@@ -56,12 +56,12 @@ const Product = ({ product }) => {
           {/* Image gallery */}
           <Tab.Group as='div' className='flex flex-col-reverse'>
             {/* Image selector */}
-            <div className='mx-auto mt-6 hidden w-full max-w-2xl sm:block lg:max-w-none'>
+            <div className='hidden w-full max-w-2xl mx-auto mt-6 sm:block lg:max-w-none'>
               <Tab.List className='grid grid-cols-4 gap-6'>
                 {product.images.map(image => (
                   <Tab
                     key={image.id}
-                    className='relative flex h-24 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium uppercase text-stone-900 hover:bg-stone-50 focus:outline-none'
+                    className='relative flex items-center justify-center h-24 text-sm font-medium uppercase bg-white rounded-md cursor-pointer text-stone-900 hover:bg-stone-50 focus:outline-none'
                   >
                     {({ selected }) => (
                       <>
@@ -74,7 +74,7 @@ const Product = ({ product }) => {
                             alt=''
                             fill
                             src={image?.file?.url}
-                            className='h-full w-full object-cover object-center'
+                            className='object-cover object-center w-full h-full'
                           />
                         </span>
                         <span
@@ -91,14 +91,14 @@ const Product = ({ product }) => {
               </Tab.List>
             </div>
 
-            <Tab.Panels className='aspect-w-1 aspect-h-1 w-full'>
+            <Tab.Panels className='w-full aspect-w-1 aspect-h-1'>
               {product.images?.map(image => (
                 <Tab.Panel key={image.id}>
                   <Image
                     fill
                     src={image.file.url}
                     alt={image.file.metadata || ''}
-                    className='h-full w-full object-cover object-center sm:rounded-lg'
+                    className='object-cover object-center w-full h-full sm:rounded-lg'
                   />
                 </Tab.Panel>
               ))}
@@ -106,7 +106,7 @@ const Product = ({ product }) => {
           </Tab.Group>
 
           {/* Product info */}
-          <div className='mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0'>
+          <div className='px-4 mt-10 sm:mt-16 sm:px-0 lg:mt-0'>
             <h1 className='text-3xl font-bold tracking-tight text-stone-900'>
               {product.name}
             </h1>
@@ -150,11 +150,11 @@ const Product = ({ product }) => {
             </div>
 
             <form className='mt-6' onSubmit={handleSubmit}>
-              <div className='sm:flex-col1 mt-10 flex'>
+              <div className='flex mt-10 sm:flex-col1'>
                 <button
                   type='submit'
                   disabled={isMutating}
-                  className='flex max-w-xs flex-1 items-center justify-center rounded-md border border-transparent bg-sky-600 py-3 px-8 text-base font-medium text-white hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-stone-50 disabled:cursor-not-allowed disabled:opacity-50 sm:w-full'
+                  className='flex items-center justify-center flex-1 max-w-xs px-8 py-3 text-base font-medium text-white border border-transparent rounded-md bg-sky-600 hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-stone-50 disabled:cursor-not-allowed disabled:opacity-50 sm:w-full'
                 >
                   {isMutating ? <Blinker /> : 'Add to Cart'}
                 </button>
@@ -166,13 +166,13 @@ const Product = ({ product }) => {
                 Additional details
               </h2>
 
-              <div className='divide-y divide-stone-200 border-t'>
+              <div className='border-t divide-y divide-stone-200'>
                 {details?.map(detail => (
                   <Disclosure as='div' key={detail.name}>
                     {({ open }) => (
                       <>
                         <h3>
-                          <Disclosure.Button className='group relative flex w-full items-center justify-between py-6 text-left'>
+                          <Disclosure.Button className='relative flex items-center justify-between w-full py-6 text-left group'>
                             <span
                               className={clsx(
                                 open ? 'text-sky-600' : 'text-stone-900',
@@ -181,15 +181,15 @@ const Product = ({ product }) => {
                             >
                               {detail.name}
                             </span>
-                            <span className='ml-6 flex items-center'>
+                            <span className='flex items-center ml-6'>
                               {open ? (
                                 <MinusIcon
-                                  className='block h-6 w-6 text-sky-400 group-hover:text-sky-500'
+                                  className='block w-6 h-6 text-sky-400 group-hover:text-sky-500'
                                   aria-hidden='true'
                                 />
                               ) : (
                                 <PlusIcon
-                                  className='block h-6 w-6 text-stone-400 group-hover:text-stone-500'
+                                  className='block w-6 h-6 text-stone-400 group-hover:text-stone-500'
                                   aria-hidden='true'
                                 />
                               )}
@@ -198,7 +198,7 @@ const Product = ({ product }) => {
                         </h3>
                         <Disclosure.Panel
                           as='div'
-                          className='prose prose-sm pb-6'
+                          className='pb-6 prose-sm prose'
                         >
                           <ul role='list'>
                             {detail.items.map(item => (
