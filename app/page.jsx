@@ -92,7 +92,7 @@ const Page = () => {
                     Experience Blendwave Coffee Shop
                     </h1>
                     <p className='mt-4 text-xl text-gray-600'>
-                    At Blendwave Coffee Shop, we're dedicated to serving only the finest quality coffee beans that have been carefully sourced and roasted to perfection. Our expert baristas take pride in creating the perfect cup of coffee, and our warm and welcoming atmosphere makes us the go-to destination for coffee lovers everywhere.
+                    At Blendwave Coffee Shop, we&apos;re dedicated to serving only the finest quality coffee beans that have been carefully sourced and roasted to perfection. Our expert baristas take pride in creating the perfect cup of coffee, and our warm and welcoming atmosphere makes us the go-to destination for coffee lovers everywhere.
                     </p>
                     <div className='mt-6'>
                       <Link
@@ -136,11 +136,13 @@ const Page = () => {
               >
                 <div className='md:flex-shrink-0'>
                   <div className='flow-root'>
-                    <img
-                      className='w-auto h-24 mx-auto -my-1'
+                  <div className='relative w-auto h-24 mx-auto -my-1'>
+                      <Image
                       src={perk.imageUrl}
                       alt=''
+                      fill
                     />
+                    </div>
                   </div>
                 </div>
                 <div className='mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6'>
