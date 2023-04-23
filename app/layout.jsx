@@ -9,11 +9,6 @@ const inter = Inter({
   subsets: ['latin']
 })
 
-export const metadata = {
-  title: 'BlendWave',
-  description: 'Created by Wyatt Connolly'
-}
-
 const RootLayout = ({ children }) => {
   return (
     <html
