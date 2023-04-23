@@ -19,4 +19,6 @@ const Page = async ({ params }) => {
   return <Product product={product} />
 }
 
+export const revalidate = 60 // revalidate this page every 60 seconds
+
 export default Page
