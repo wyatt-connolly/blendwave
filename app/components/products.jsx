@@ -2,6 +2,11 @@ import { formatCurrency } from '@/lib/utils'
 import Image from 'next/image'
 import Link from 'next/link'
 
+export const metadata = {
+  title: 'Products / Blendwave',
+  description: 'Browse our collection of premium coffee bags, from bold and rich roasts to smooth and subtle blends, and enjoy the perfect cup every morning.',
+}
+
 const Products = ({ products }) => {
   return (
     <div className='py-24'>
