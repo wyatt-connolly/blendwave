@@ -97,11 +97,11 @@ const Page = () => {
                       Experience Blendwave Coffee
                     </h1>
                     <p className='mt-4 text-xl text-gray-600'>
-                      At Blendwave Coffee Shop, we&apos;re dedicated to serving
-                      only the finest quality coffee beans that have been
-                      carefully sourced and roasted to perfection. Our expert
-                      baristas take pride in creating the perfect cup of coffee,
-                      and our warm and welcoming atmosphere makes us the go-to
+                      At Blendwave Coffee, we&apos;re dedicated to serving only
+                      the finest quality coffee beans that have been carefully
+                      sourced and roasted to perfection. Our expert baristas
+                      take pride in creating the perfect cup of coffee, and our
+                      warm and welcoming atmosphere makes us the go-to
                       destination for coffee lovers everywhere.
                     </p>
                     <div className='mt-6'>
