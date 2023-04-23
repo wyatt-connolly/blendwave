@@ -53,7 +53,7 @@ const perks = [
 
 export const metadata = {
   title: 'BlendWave | Next-level coffee',
-  description: 'Created by Wyatt Connolly',
+  description: 'Created by Wyatt Connolly'
 }
 
 const Page = () => {
