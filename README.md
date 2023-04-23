@@ -1,3 +1,39 @@
+## About the project
+
+Blendwave is a specialty coffee company that offers high-quality, ethically-sourced coffee beans in convenient, eco-friendly bags for an exceptional brewing experience.
+
+:point_right: Live Demo: [BlendWave](https://blendwave-git-master-wyatt-connolly.vercel.app/)
+
+## Built with:
+- Tailwind 
+- React 
+- Typescript
+- Next
+- Swell
+- Clerk
+
+## Screenshots :camera_flash:
+![blendwave-git-master-wyatt-connolly vercel app_ (6)](https://user-images.githubusercontent.com/88942814/233865787-34dc878f-a78d-4b69-90a1-e2e04ac0dc50.png)
+
+![blendwave-git-master-wyatt-connolly vercel app_ (9)](https://user-images.githubusercontent.com/88942814/233865926-a6c33b1e-412d-4c4d-acb4-6620f6bbced7.png)
+
+![Screenshot 2023-04-23 140013](https://user-images.githubusercontent.com/88942814/233866051-c54eed4d-cdea-4818-b83d-700bfd5b6ac8.png)
+
+
+![blendwave-git-master-wyatt-connolly vercel app_ (3)](https://user-images.githubusercontent.com/88942814/233865505-15950ca8-fc43-4c55-8081-bd997930ef72.png)
+
+![blendwave-git-master-wyatt-connolly vercel app_ (4)](https://user-images.githubusercontent.com/88942814/233865526-e51cfa17-1998-4b37-abd1-695229827ee9.png)
+
+![blendwave-git-master-wyatt-connolly vercel app_products_decaf-espresso](https://user-images.githubusercontent.com/88942814/233866127-5f16ef15-1332-45ae-9f43-9214b3929993.png)
+
+![job-ecommerce swell store_checkout_fb30a19ea31c1c701a5e01b1ea29f1c8 (2)](https://user-images.githubusercontent.com/88942814/233866334-2373b50e-da15-411d-9767-4720b96bf531.png)
+
+![job-ecommerce swell store_checkout_fb30a19ea31c1c701a5e01b1ea29f1c8 (3)](https://user-images.githubusercontent.com/88942814/233866346-cf51a9cf-18fd-47a6-8fe9-a2edf047d630.png)
+
+![job-ecommerce swell store_checkout_fb30a19ea31c1c701a5e01b1ea29f1c8 (4)](https://user-images.githubusercontent.com/88942814/233866367-feacc6f7-0ff3-42e7-845e-b90de8bfa0ab.png)
+
+![job-ecommerce swell store_checkout_fb30a19ea31c1c701a5e01b1ea29f1c8 (5)](https://user-images.githubusercontent.com/88942814/233866391-f019d158-399a-4a10-a196-99d143fa7b6b.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -14,9 +50,9 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
