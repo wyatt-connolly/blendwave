@@ -89,7 +89,7 @@ const Page = () => {
                 <div className='max-w-2xl py-24 mx-auto lg:max-w-none lg:py-64'>
                   <div className='lg:pr-16'>
                     <h1 className='text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl xl:text-6xl'>
-                    Experience Blendwave Coffee Shop
+                    Experience Blendwave Coffee
                     </h1>
                     <p className='mt-4 text-xl text-gray-600'>
                     At Blendwave Coffee Shop, we&apos;re dedicated to serving only the finest quality coffee beans that have been carefully sourced and roasted to perfection. Our expert baristas take pride in creating the perfect cup of coffee, and our warm and welcoming atmosphere makes us the go-to destination for coffee lovers everywhere.
