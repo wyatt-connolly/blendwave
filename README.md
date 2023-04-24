@@ -2,6 +2,9 @@
 
 Blendwave is a specialty coffee company that offers high-quality, ethically-sourced coffee beans in convenient, eco-friendly bags.
 
+> **Use card number 4242 4242 4242 4242 for testing**
+
+
 :point_right: Live Demo: [BlendWave](https://blendwave-git-master-wyatt-connolly.vercel.app/)
 
 ## Built with:
@@ -33,6 +36,8 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 ![job-ecommerce swell store_checkout_fb30a19ea31c1c701a5e01b1ea29f1c8 (4)](https://user-images.githubusercontent.com/88942814/233866367-feacc6f7-0ff3-42e7-845e-b90de8bfa0ab.png)
 
 ![job-ecommerce swell store_checkout_fb30a19ea31c1c701a5e01b1ea29f1c8 (5)](https://user-images.githubusercontent.com/88942814/233866391-f019d158-399a-4a10-a196-99d143fa7b6b.png)
+
+![job-ecommerce swell store_admin_orders_64459e464750bd0012faa0c4](https://user-images.githubusercontent.com/88942814/234060082-064a3a36-b66c-4626-8203-f86120b1a2d8.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
