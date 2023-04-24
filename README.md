@@ -1,13 +1,12 @@
 ## About the project
 
-Blendwave is a specialty coffee company that offers high-quality, ethically-sourced coffee beans in convenient, eco-friendly bags for an exceptional brewing experience.
+Blendwave is a specialty coffee company that offers high-quality, ethically-sourced coffee beans in convenient, eco-friendly bags.
 
 :point_right: Live Demo: [BlendWave](https://blendwave-git-master-wyatt-connolly.vercel.app/)
 
 ## Built with:
 - Tailwind 
 - React 
-- Typescript
 - Next
 - Swell
 - Clerk
