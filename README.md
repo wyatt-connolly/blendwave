@@ -5,6 +5,7 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 :point_right: Live Demo: [BlendWave](https://blendwave-git-master-wyatt-connolly.vercel.app/)
 
 ## Built with:
+- Javascript
 - Tailwind 
 - React 
 - Next
