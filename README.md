@@ -4,7 +4,6 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 
 > **Use card number 4242 4242 4242 4242 for testing**
 
-
 :point_right: Live Demo: [BlendWave](https://blendwave-git-master-wyatt-connolly.vercel.app/)
 
 ## Built with:
@@ -14,6 +13,10 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 - Next
 - Swell
 - Clerk
+
+## Lighthouse :rotating_light:
+
+![ddAGzeU](https://github.com/wyatt-connolly/blendwave/assets/88942814/23f91c58-dc59-4c59-8647-0c608cfe1aa4)
 
 ## Screenshots :camera_flash:
 ![blendwave-git-master-wyatt-connolly vercel app_ (6)](https://user-images.githubusercontent.com/88942814/233865787-34dc878f-a78d-4b69-90a1-e2e04ac0dc50.png)
