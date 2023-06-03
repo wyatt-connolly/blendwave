@@ -18,11 +18,11 @@ const details = [
   {
     name: 'Features',
     items: [
-      'Unique flavor profile: Blended coffee typically features a complex and nuanced taste that combines the best qualities of different coffee beans. A well-crafted blend can create a distinctive and unforgettable flavor profile that stands out from single-origin coffee.',
-      'Consistent quality: Blended coffee can offer consistent quality and flavor, as the blend is designed to produce a consistent taste from batch to batch. This can be especially important for businesses that need to maintain a consistent product for their customers.',
-      'Versatility: Blended coffee can be used in a wide range of brewing methods, including drip, espresso, French press, and more. This versatility makes blended coffee a convenient choice for coffee lovers who like to experiment with different brewing methods.',
-      "Unique aroma: Blended coffee can have a unique aroma that sets it apart from other types of coffee. The aroma can be influenced by the blend's specific beans, roast level, and other factors.",
-      'Balanced acidity: Blended coffee can offer a balanced acidity that is neither too high nor too low. This can make the coffee more enjoyable to drink and less likely to cause digestive issues.',   
+      'Unique flavor profile',
+      'Consistent quality',
+      'Versatility',
+      'Unique aroma',
+      'Balanced acidity'
     ]
   }
 ]
@@ -91,7 +91,7 @@ const Product = ({ product }) => {
               </Tab.List>
             </div>
 
-            <Tab.Panels className='w-full aspect-w-1 aspect-h-1'>
+            <Tab.Panels className='w-full aspect-h-1 aspect-w-1'>
               {product.images?.map(image => (
                 <Tab.Panel key={image.id}>
                   <Image
