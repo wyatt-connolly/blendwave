@@ -16,7 +16,7 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 
 ## Features:
 - Ecommerce site featuring product pages, shopping cart functionality, and real-time inventory served from Swell backend.
-- Clerk one click sign-in and user account management.
+- Clerk one click sign-in with Google and user account management.
 - Custom checkout and subscription flow with payment options such as CC, Paypal, Stripe, Amazon Pay, Google Pay and Klarna.
 
 ## Screenshots :camera_flash:
