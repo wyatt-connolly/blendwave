@@ -26,8 +26,11 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 
 ![Screenshot 2023-04-23 140013](https://user-images.githubusercontent.com/88942814/233866051-c54eed4d-cdea-4818-b83d-700bfd5b6ac8.png)
 
+![dashboard clerk com_](https://github.com/wyatt-connolly/blendwave/assets/88942814/8b942fa4-54e3-47c3-850b-690f99b385fe)
 
 ![blendwave-git-master-wyatt-connolly vercel app_ (3)](https://user-images.githubusercontent.com/88942814/233865505-15950ca8-fc43-4c55-8081-bd997930ef72.png)
+
+![job-ecommerce swell store_admin_products](https://github.com/wyatt-connolly/blendwave/assets/88942814/5092a5f2-351d-4f99-a089-6be441e1d130)
 
 ![blendwave-git-master-wyatt-connolly vercel app_ (4)](https://user-images.githubusercontent.com/88942814/233865526-e51cfa17-1998-4b37-abd1-695229827ee9.png)
 
@@ -42,6 +45,8 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 ![job-ecommerce swell store_checkout_fb30a19ea31c1c701a5e01b1ea29f1c8 (5)](https://user-images.githubusercontent.com/88942814/233866391-f019d158-399a-4a10-a196-99d143fa7b6b.png)
 
 ![job-ecommerce swell store_admin_orders_64459e464750bd0012faa0c4](https://user-images.githubusercontent.com/88942814/234060082-064a3a36-b66c-4626-8203-f86120b1a2d8.png)
+
+![job-ecommerce swell store_admin_orders](https://github.com/wyatt-connolly/blendwave/assets/88942814/6d997397-0c82-4345-8c59-26772171ba25)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
