@@ -10,9 +10,14 @@ Blendwave is a specialty coffee company that offers high-quality, ethically-sour
 - Javascript
 - Tailwind 
 - React 
-- Next
+- Next.js
 - Swell
 - Clerk
+
+## Features:
+- Ecommerce site featuring product pages, shopping cart functionality, and real-time inventory served from Swell backend.
+- Clerk one click sign-in and user account management.
+- Custom checkout and subscription flow with payment options such as CC, Paypal, Stripe, Amazon Pay, Google Pay and Klarna.
 
 ## Screenshots :camera_flash:
 ![blendwave-git-master-wyatt-connolly vercel app_ (6)](https://user-images.githubusercontent.com/88942814/233865787-34dc878f-a78d-4b69-90a1-e2e04ac0dc50.png)
